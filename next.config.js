@@ -2,6 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  images: {
+    unoptimized: true,
+  },
+  distDir: 'build',
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
